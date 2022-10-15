@@ -1,0 +1,22 @@
+{
+  "name": "talkative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "hetoku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend/talk && npm run build"
+  },
+  "author": "prince rajput",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.2"
+  }
+}
