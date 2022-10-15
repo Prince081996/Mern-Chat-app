@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "hetoku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend/talk && npm run build"
+    "start": "node backend/server.js"
   },
   "author": "prince rajput",
   "license": "ISC",
